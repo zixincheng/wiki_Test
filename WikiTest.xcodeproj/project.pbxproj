@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A56E06DC532B6C9E346FC8 /* libPods-WikiTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E58A30047994F6870B4DBB9A /* libPods-WikiTest.a */; };
+		940293CC1D30216500864131 /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940293CB1D30216500864131 /* ResultTableViewController.m */; };
+		940293CF1D3033F700864131 /* DetailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940293CE1D3033F700864131 /* DetailPageViewController.m */; };
+		940293D31D30589C00864131 /* CoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 940293D21D30589C00864131 /* CoreDataStore.m */; };
+		940293D61D30593400864131 /* CoreDataWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 940293D51D30593400864131 /* CoreDataWrapper.m */; };
+		940293D91D306C8200864131 /* FavouriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940293D81D306C8200864131 /* FavouriteTableViewController.m */; };
+		940293DC1D32D5CC00864131 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 940293DB1D32D5CC00864131 /* TableViewCell.m */; };
 		940D184D1D2F3B60002CCB4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D184C1D2F3B60002CCB4E /* main.m */; };
 		940D18501D2F3B60002CCB4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D184F1D2F3B60002CCB4E /* AppDelegate.m */; };
-		940D18531D2F3B60002CCB4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D18521D2F3B60002CCB4E /* ViewController.m */; };
+		940D18531D2F3B60002CCB4E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D18521D2F3B60002CCB4E /* SearchViewController.m */; };
 		940D18561D2F3B60002CCB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940D18541D2F3B60002CCB4E /* Main.storyboard */; };
 		940D18591D2F3B60002CCB4E /* WikiTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 940D18571D2F3B60002CCB4E /* WikiTest.xcdatamodeld */; };
 		940D185B1D2F3B60002CCB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940D185A1D2F3B60002CCB4E /* Assets.xcassets */; };
 		940D185E1D2F3B60002CCB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940D185C1D2F3B60002CCB4E /* LaunchScreen.storyboard */; };
 		940D18691D2F3B60002CCB4E /* WikiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D18681D2F3B60002CCB4E /* WikiTestTests.m */; };
 		940D18741D2F3B60002CCB4E /* WikiTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D18731D2F3B60002CCB4E /* WikiTestUITests.m */; };
+		940D18911D2F6986002CCB4E /* ApiWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D18901D2F6986002CCB4E /* ApiWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +44,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FA2C17B2730D39AB7FDF05C /* Pods-WikiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiTest/Pods-WikiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		737FC9A426AD720046F59D16 /* Pods-WikiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiTest/Pods-WikiTest.release.xcconfig"; sourceTree = "<group>"; };
+		940293CA1D30216500864131 /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewController.h; sourceTree = "<group>"; };
+		940293CB1D30216500864131 /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
+		940293CD1D3033F700864131 /* DetailPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPageViewController.h; sourceTree = "<group>"; };
+		940293CE1D3033F700864131 /* DetailPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPageViewController.m; sourceTree = "<group>"; };
+		940293D11D30589C00864131 /* CoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStore.h; sourceTree = "<group>"; };
+		940293D21D30589C00864131 /* CoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStore.m; sourceTree = "<group>"; };
+		940293D41D30593400864131 /* CoreDataWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataWrapper.h; sourceTree = "<group>"; };
+		940293D51D30593400864131 /* CoreDataWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataWrapper.m; sourceTree = "<group>"; };
+		940293D71D306C8200864131 /* FavouriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteTableViewController.h; sourceTree = "<group>"; };
+		940293D81D306C8200864131 /* FavouriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteTableViewController.m; sourceTree = "<group>"; };
+		940293DA1D32D5CC00864131 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		940293DB1D32D5CC00864131 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		940D18481D2F3B60002CCB4E /* WikiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940D184C1D2F3B60002CCB4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		940D184E1D2F3B60002CCB4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		940D184F1D2F3B60002CCB4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		940D18511D2F3B60002CCB4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		940D18521D2F3B60002CCB4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		940D18511D2F3B60002CCB4E /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		940D18521D2F3B60002CCB4E /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		940D18551D2F3B60002CCB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		940D18581D2F3B60002CCB4E /* WikiTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WikiTest.xcdatamodel; sourceTree = "<group>"; };
 		940D185A1D2F3B60002CCB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +75,10 @@
 		940D186F1D2F3B60002CCB4E /* WikiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940D18731D2F3B60002CCB4E /* WikiTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiTestUITests.m; sourceTree = "<group>"; };
 		940D18751D2F3B60002CCB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940D18861D2F59BF002CCB4E /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		940D188F1D2F6986002CCB4E /* ApiWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWrapper.h; sourceTree = "<group>"; };
+		940D18901D2F6986002CCB4E /* ApiWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiWrapper.m; sourceTree = "<group>"; };
+		E58A30047994F6870B4DBB9A /* libPods-WikiTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WikiTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A56E06DC532B6C9E346FC8 /* libPods-WikiTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +107,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31DB24B3D7484E0716CA8EC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				737FC9A426AD720046F59D16 /* Pods-WikiTest.release.xcconfig */,
+				3FA2C17B2730D39AB7FDF05C /* Pods-WikiTest.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A014F2650BC49B3B5BB6523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940D18861D2F59BF002CCB4E /* AFNetworking.framework */,
+				E58A30047994F6870B4DBB9A /* libPods-WikiTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		940D183F1D2F3B60002CCB4E = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +132,8 @@
 				940D18671D2F3B60002CCB4E /* WikiTestTests */,
 				940D18721D2F3B60002CCB4E /* WikiTestUITests */,
 				940D18491D2F3B60002CCB4E /* Products */,
+				31DB24B3D7484E0716CA8EC7 /* Pods */,
+				7A014F2650BC49B3B5BB6523 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +150,25 @@
 		940D184A1D2F3B60002CCB4E /* WikiTest */ = {
 			isa = PBXGroup;
 			children = (
+				940D188F1D2F6986002CCB4E /* ApiWrapper.h */,
+				940D18901D2F6986002CCB4E /* ApiWrapper.m */,
 				940D184E1D2F3B60002CCB4E /* AppDelegate.h */,
 				940D184F1D2F3B60002CCB4E /* AppDelegate.m */,
-				940D18511D2F3B60002CCB4E /* ViewController.h */,
-				940D18521D2F3B60002CCB4E /* ViewController.m */,
+				940293D11D30589C00864131 /* CoreDataStore.h */,
+				940293D21D30589C00864131 /* CoreDataStore.m */,
+				940293D41D30593400864131 /* CoreDataWrapper.h */,
+				940293D51D30593400864131 /* CoreDataWrapper.m */,
+				940D18511D2F3B60002CCB4E /* SearchViewController.h */,
+				940D18521D2F3B60002CCB4E /* SearchViewController.m */,
 				940D18541D2F3B60002CCB4E /* Main.storyboard */,
+				940293DA1D32D5CC00864131 /* TableViewCell.h */,
+				940293DB1D32D5CC00864131 /* TableViewCell.m */,
+				940293D71D306C8200864131 /* FavouriteTableViewController.h */,
+				940293D81D306C8200864131 /* FavouriteTableViewController.m */,
+				940293CA1D30216500864131 /* ResultTableViewController.h */,
+				940293CB1D30216500864131 /* ResultTableViewController.m */,
+				940293CD1D3033F700864131 /* DetailPageViewController.h */,
+				940293CE1D3033F700864131 /* DetailPageViewController.m */,
 				940D185A1D2F3B60002CCB4E /* Assets.xcassets */,
 				940D185C1D2F3B60002CCB4E /* LaunchScreen.storyboard */,
 				940D185F1D2F3B60002CCB4E /* Info.plist */,
@@ -150,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 940D18781D2F3B60002CCB4E /* Build configuration list for PBXNativeTarget "WikiTest" */;
 			buildPhases = (
+				1CACBFCBF7A85AFE1D97CBB8 /* [CP] Check Pods Manifest.lock */,
 				940D18441D2F3B60002CCB4E /* Sources */,
 				940D18451D2F3B60002CCB4E /* Frameworks */,
 				940D18461D2F3B60002CCB4E /* Resources */,
+				84F8BAEDCC78AA87E80BAC07 /* [CP] Embed Pods Frameworks */,
+				9524DDB2DE6BBBD213735256 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +332,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CACBFCBF7A85AFE1D97CBB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F8BAEDCC78AA87E80BAC07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiTest/Pods-WikiTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9524DDB2DE6BBBD213735256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiTest/Pods-WikiTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		940D18441D2F3B60002CCB4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940D18531D2F3B60002CCB4E /* ViewController.m in Sources */,
+				940D18911D2F6986002CCB4E /* ApiWrapper.m in Sources */,
+				940D18531D2F3B60002CCB4E /* SearchViewController.m in Sources */,
+				940293D31D30589C00864131 /* CoreDataStore.m in Sources */,
 				940D18591D2F3B60002CCB4E /* WikiTest.xcdatamodeld in Sources */,
+				940293CF1D3033F700864131 /* DetailPageViewController.m in Sources */,
+				940293D91D306C8200864131 /* FavouriteTableViewController.m in Sources */,
 				940D18501D2F3B60002CCB4E /* AppDelegate.m in Sources */,
+				940293CC1D30216500864131 /* ResultTableViewController.m in Sources */,
+				940293D61D30593400864131 /* CoreDataWrapper.m in Sources */,
+				940293DC1D32D5CC00864131 /* TableViewCell.m in Sources */,
 				940D184D1D2F3B60002CCB4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +492,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public/AFNetworking";
 			};
 			name = Debug;
 		};
@@ -411,14 +531,20 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public/AFNetworking";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		940D18791D2F3B60002CCB4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA2C17B2730D39AB7FDF05C /* Pods-WikiTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				INFOPLIST_FILE = WikiTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zixincheng.WikiTest;
@@ -428,8 +554,13 @@
 		};
 		940D187A1D2F3B60002CCB4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737FC9A426AD720046F59D16 /* Pods-WikiTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				INFOPLIST_FILE = WikiTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zixincheng.WikiTest;
@@ -502,6 +633,7 @@
 				940D187A1D2F3B60002CCB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940D187B1D2F3B60002CCB4E /* Build configuration list for PBXNativeTarget "WikiTestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +642,7 @@
 				940D187D1D2F3B60002CCB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940D187E1D2F3B60002CCB4E /* Build configuration list for PBXNativeTarget "WikiTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +651,7 @@
 				940D18801D2F3B60002CCB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
